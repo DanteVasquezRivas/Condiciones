@@ -1,0 +1,14 @@
+function ingresar() {
+    var option1 = Number(document.getElementById("opcion1").value);
+    var option2 = Number(document.getElementById("opcion2").value);
+    var option3 = Number(document.getElementById("opcion3").value);
+    var inputtexto = document.getElementById("texto");
+    if ((option1 == 9) & (option2 == 1) & (option3 == 1)) {
+      inputtexto.innerHTML = "Pasword 1 es correcto";
+    } else if ((option1 == 7) & (option2 == 1) & (option3 == 4)) {
+      inputtexto.innerHTML = "Pasword 2 es correcto";
+    } else {
+      inputtexto.innerHTML = "Error";
+    }
+  }
+  

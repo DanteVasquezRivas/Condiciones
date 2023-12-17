@@ -1,0 +1,13 @@
+let estado = false;
+
+function cambiaColor() {
+    let img = document.getElementById("imagen");
+    console.log(estado);
+    if (estado == false) {
+      img.style.border = "2px solid red";
+      estado = true;
+    } else {
+      img.style.border = "0px";
+      estado = false;
+    }
+  }
